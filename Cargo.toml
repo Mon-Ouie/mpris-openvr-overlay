@@ -1,0 +1,18 @@
+[package]
+name = "mpris-openvr-overlay"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+egui = "0.24.1"
+egui_extras = { version = "~0.23", features = ["all_loaders"] }
+image = { version = "~0.24", features = ["gif", "jpeg", "ico", "png", "pnm", "tga", "tiff", "webp", "bmp", "hdr", "dxt", "dds", "farbfeld", "jpeg_rayon", "openexr", "qoi"] }
+egui_sdl2_gl = "0.23.0"
+freedesktop-icons = "0.2.4"
+gl = "~0.14"
+mpris = "2.0.1"
+openvr-sys2 = "0.1.3"
+sdl2 = "~0.35"
+font-kit = "0.12.0"

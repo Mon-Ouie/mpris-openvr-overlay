@@ -1,0 +1,16 @@
+{
+    "source" : "builtin",
+    "applications": [{
+	"app_key": "org.mon-ouie.mpris-openvr-overlay",
+	"launch_type": "binary",
+	"binary_path_linux": "target/release/mpris-openvr-overlay",
+	"is_dashboard_overlay": true,
+
+	"strings": {
+	    "en_us": {
+		"name": "MPRIS Media Controller",
+		"description": "Control and view the state of media players that support the MPRIS protocol from the OpenVR dashboard."
+	    }
+	}
+    }]
+}
